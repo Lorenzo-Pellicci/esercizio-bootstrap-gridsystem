@@ -1,0 +1,29 @@
+h1{
+    font-size: 5rem;
+    padding-top: 10%;
+    
+}
+
+header{
+    background: linear-gradient(transparent, black), url('/media/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-top: 55px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    header {
+        height: 35vh;
+    }
+}
